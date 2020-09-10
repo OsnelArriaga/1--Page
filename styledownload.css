@@ -9,7 +9,7 @@
 /* ------------------- Fuentes ------------------------*/
 
 @font-face{
-    font-family:"Modern";
+    font-family:"Modern-sans";
     src: url(../3/fonts/Long_Shot.ttf);
 }
 
@@ -62,7 +62,7 @@
     margin-bottom: 4px;
     color: white;
     text-align: center;
-    font-family: "Modern";
+    font-family: "Modern-sans";
     font-weight: normal;
     border-bottom: solid 1px white;
 }
@@ -189,7 +189,7 @@
     margin-bottom: 4px;
     color: white;
     text-align: center;
-    font-family: "Modern";
+    font-family: "Modern-sans";
     font-weight: normal;
     border-bottom: solid 1px white;
 }
@@ -316,7 +316,7 @@
     margin-bottom: 4px;
     color: white;
     text-align: center;
-    font-family: "Modern";
+    font-family: "Modern-sans";
     font-weight: normal;
     border-bottom: solid 1px white;
 }
