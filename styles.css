@@ -17,8 +17,8 @@ header{
 
 header h1{
     padding: 6px;
-    font-size: 50px;
-    font-family: "Modern";
+    font-size: 35px;
+    font-family: sans-serif;
     font-stretch: normal;
     font-weight: normal;
     border-bottom: white 1px solid;
@@ -29,7 +29,6 @@ header h2{
     text-justify: center;
     font-size: 10px;
     padding: 10%;
-    font-family: "Modern";
 }
 
 header img{
@@ -116,7 +115,7 @@ body{
     margin-top: 40%;
     float: right;
     background: none;
-    transform: translate(-110%);
+    transform: translate(-120%);
 
 }
 
