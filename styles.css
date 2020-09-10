@@ -18,7 +18,7 @@ header{
 header h1{
     padding: 6px;
     font-size: 50px;
-    font-family: "Modern-sans";
+    font-family: "Modern";
     font-stretch: normal;
     font-weight: normal;
     border-bottom: white 1px solid;
@@ -75,7 +75,7 @@ body{
 /* ------------------- Fuentes ------------------------*/
 
 @font-face{
-    font-family:"Modern-sans";
+    font-family:"Modern";
     src: url(../3/fonts/Long_Shot.ttf);
 }
 
