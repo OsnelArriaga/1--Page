@@ -445,6 +445,7 @@
     align-items: flex-end;
     z-index: 100;
     border-left: white 3px solid;
+    box-shadow: black 13px 13px 50px;
 }
 
 .door-open{

@@ -8,27 +8,32 @@
 
 header{
     color: white;
-    padding: 20% 6%;
+    padding: 15% 6%;
     background: #201f1f;
     border-right: white 3px solid;
     z-index: -1;
     z-index: 100%;
+    box-shadow: black 13px 13px 50px;
+    
 }
 
 header h1{
-    padding: 6px;
+    padding: 5px;
     font-size: 35px;
     font-family: sans-serif;
     font-stretch: normal;
     font-weight: normal;
     border-bottom: white 1px solid;
     border-bottom-width: 1px;
+    inline-size: 100%;
+    
 }
 
 header h2{
     text-justify: center;
     font-size: 10px;
     padding: 10%;
+    
 }
 
 header img{
@@ -86,6 +91,7 @@ body{
     margin-left: auto;
     border-left: white 3px solid;
     background-color: #201f1f;
+    box-shadow: black 13px 13px 50px;
 }
 
 .menu a{
@@ -105,6 +111,7 @@ body{
     top: 0;
     background-color: white;
     transition: .3s linear .3s;
+    border-right: white 1px solid;
 }
 
 /* -----------------------------------------------*/
@@ -112,7 +119,7 @@ body{
 /* ---------------------   Social Pages  --------------------------*/
 
 .sm{
-    margin-top: 40%;
+    margin-top: 38%;
     float: right;
     background: none;
     transform: translate(-120%);
@@ -130,8 +137,17 @@ body{
     margin: 0 12px;
     transition: .4s linear;
     position: relative;
+    animation-name: social;
+    animation-duration: 3s;
 
 }
+
+@keyframes social {
+    from {color: #201f1f;}
+    to {color: white;}
+}
+
+
 
 .sm a::before, .sm a::after{
     content: "";
@@ -162,3 +178,5 @@ body{
 
 
 /* -----------------------------------------------*/
+
+
