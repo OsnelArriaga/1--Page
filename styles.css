@@ -111,7 +111,6 @@ body{
     top: 0;
     background-color: white;
     transition: .3s linear .3s;
-    border-right: white 1px solid;
 }
 
 /* -----------------------------------------------*/

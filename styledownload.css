@@ -464,7 +464,7 @@
 }
 
 .door-open:hover{
-    border-right: white 3px solid;
+    border-right: white 4px solid;
     transition: .1s ease-in-out .1s;
 }
 
